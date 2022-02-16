@@ -4,13 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>Sean Till Brokers</title>
+  <link rel="icon" href="img/logo.png">
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Google Fronts -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <script defer src="https://kit.fontawesome.com/eba2e6e1f2.js" crossorigin="anonymous"></script>
 
@@ -25,26 +28,28 @@
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">tindog</a>
+      <a class="navbar-brand" href="">
+        <img class="nav-logo" src="img/logo.png" alt="logo">
+      </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact</a>
+            <a class="nav-link" href="#about-us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cta">Download</a>
+            <a class="nav-link" href="#company">Company</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
 
@@ -52,29 +57,209 @@
 
     </nav>
 
-    <h1>Hello World</h1>
+    <!-- Title -->
+    <div class="container-fluid title-container">
+      <h1 class="title-heading">Sean Till Brokers</h1>
+      <h2 class="title-subheading">Registered Financial Service Provider</h2>
+      <p class="title-text">Since 2000</p>
+    </div>
+
 
   </section>
 
+
+
   <section id="about-us">
+
+    <div class="container-fluid about-container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="about-img" src="img/about-us.png" alt="about-us-img">
+        </div>
+
+        <div class="col-lg-8">
+          <h2 class="about-heading">About Us</h2>
+          <p class="about-text">Started Sean Till Brokers Financial Service Provider in Jan 2000. Fully Accreditation on Financial Products.</p>
+          <p class="about-text">Completed his Higher Certificate in Financial Planning at Milpark Business School in; Financial Planning for Personal and Business clients, Income TAX, Law for Financial Planners, Financial Products, Relationship in
+            Marketing, Principles in Personal and Business Financial Planning. </p>
+          <p class="about-text">Completed the RE1 and RE5 examinations requested by the Financial Service Conduct Authority. Completed his Professional Development program set by FAIS. </p>
+          <p class="about-text">Registered at the Council of Medical Scheme as a FULL Member since 2000 (BR 6047). Compliance on advice is done quarterly by Masthead.</p>
+          <button type="button" class="btn btn-dark btn-lg about-btn" data-bs-toggle="modal" data-bs-target="#license">License</button>
+          <button type="button" class="btn btn-outline-dark btn-lg about-btn" data-bs-toggle="modal" data-bs-target="#fais">FAIS Verified</button>
+
+        </div>
+      </div>
+
+    </div>
 
   </section>
 
   <section id="services">
+    <h2 class="services-heading">Services</h2>
+    <p class="services-text">Covering a wide range of services</p>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active container-fluid">
+          <h3 class="carousel-heading">Life Insurance</h3>
+          <p class="carousel-text">Identify your Financial Needs and Objectives. Analysis your information, Plan Presentation, Review you progress is part of Financial Planning to secure your Financial independence and reach your set goals.</p>
+          <i class="fa-solid fa-user-group carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">Health</h3>
+          <p class="carousel-text">Discovery Health Medical Scheme is South Africa’s largest and highest grade AAA+ medical schemes. Discovery Health is the leading medical scheme administrator in South Africa, providing administration and managed
+            care services to over 3.3 million beneficiaries.</p>
+          <i class="fa-solid fa-house-medical carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">Investments</h3>
+          <p class="carousel-text">Advise on Local and International Investments. Discovery International is the first to offer a Dollar Endowment that you can fund monthly.</p>
+          <i class="fa-solid fa-coins carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">Vitality</h3>
+          <p class="carousel-text">Vitality is the world’s leading science-based behavioural-change programme that encourages and rewards you for living healthier, driving well and banking well. With over 10 million Vitality members, you can be part
+            of the Vitality family and start your journey to a healthier you and a safer way of life.</p>
+          <i class="fa-solid fa-circle-check carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">After Retirement Investments (Post-Retirement)</h3>
+          <p class="carousel-text">We encourage and reward you for investing longer and more, living well and withdrawing wisely. We have a diverse range of investment plans that can help you invest towards your retirement and other shorter- or
+            medium-term goals. Our investment opportunities extend across local and offshore investments. No matter what you are saving for, we can help you get there.</p>
+          <i class="fa-solid fa-person-walking-with-cane carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">Business Insurance</h3>
+          <p class="carousel-text">Discovery Business Insurance is built on the vision that businesses that show good financial performance and have successful operations have a lower insurance risk. This new offering provides powerful incentives and
+            benefits to businesses in order to help them grow, reduce their insurance costs and manage their risks. Healthier businesses also benefit South Africa as a whole as they contribute to higher economic growth and employment.</p>
+          <i class="fa-solid fa-building carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">Banking</h3>
+          <p class="carousel-text">Choose from a credit card, a day-to-day transaction account and free savings account. Join the world’s first behavioural Bank and improve your financial health. Dynamic Interest Rates. First behavioural Bank. Get
+            fantastic rewards. Get an account in minutes.</p>
+          <i class="fa-solid fa-landmark carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">Gap Cover</h3>
+          <p class="carousel-text">Discovery Gap Cover gives you rich protection against shortfalls in medical scheme cover for specialist treatment received in-hospital and extended cover for specific shortfalls incurred out-of-hospital.</p>
+          <i class="fa-solid fa-scale-balanced carousel-icon"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h3 class="carousel-heading">Life Motor and Home Insurance</h3>
+          <p class="carousel-text">Get up to R800 of your fuel spend back every month for driving well. Get motor and Home Insurance that calls emergency services when you can’t.</p>
+          <i class="fa-solid fa-car-crash carousel-icon"></i>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
 
   </section>
 
   <section id="company">
+    <div class="row container-fluid">
 
+      <div class="col-lg-6">
+        <img class="seantill-img" src="img/seantill-logo.jpeg" alt="seantill-logo">
+      </div>
+      <div class="col-lg-6">
+        <img class="company-img" src="img/discovery-logo.png" alt="discovery-logo">
+      </div>
+
+
+    </div>
   </section>
 
   <section id="contact">
+    <div class="container-fluid">
 
+      <h2 class="contact-heading">Contact Details</h2>
+      <p class="contact-text">Please feel free to call us on 082 882 6845.</p>
+      <p class="contact-text">Or send us an email.</p>
+      <div class="contact-btn">
+        <a class="btn btn-dark" href="mailto:admin@seantillbrokers.co.za">Email Us</a>
+      </div>
+    </div>
   </section>
 
   <section id="footer">
-
+    <div class="container-fluid">
+      <p class="footer-text">© Copyright Jacques Till - Web Developer</p>
+    </div>
   </section>
+
+  <!-- Modal Popups -->
+
+  <div class="modal" tabindex="-1" id="license">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Authorized Financial Services Provider</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Sean Till Brokers is I an authorized Financial Services Provider, licensed to render Financial Services to Clients under the Financial Sector Conduct Authority with license categories; Long-Term Insurance subcategory A, Short-Term
+            Insurance Personal Lines, Long-Term Insurance subcategory B1, Long-term insurance subcategory B2, Long-term Insurance subcategory B2-A, Long-term Insurance subcategory B1-A, Short-term Insurance Personal Lines A1, Long-Term Insurance
+            subcategory C, Retail Pension Benefits, Short-Term Insurance Commercial Lines, Pension Funds Benefits, Participatory interests in a collective investment scheme, Health Service Benefits.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" tabindex="-1" id="fais">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">FAIS Compliant</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Completed his Professional Development program set by FAIS. Fully Accreditation on Financial Products. Registered at the Council of Medical Scheme as a FULL Member since 2000 (BR 6047). Compliance on advice is done quarterly by Masthead
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
