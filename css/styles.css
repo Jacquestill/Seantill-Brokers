@@ -13,19 +13,20 @@ body {
 }
 
 .nav-item {
-  margin: 0 40px;
+  margin: 0 50px;
 }
 
 /* ---------- Title section ---------- */
 #title {
-  background: url('../img/title-page.png') no-repeat;
+  background: url('../img/background.png') no-repeat;
   background-size: cover;
   color: #ffffff;
   position: relative;
 }
 
 .title-container {
-  padding: 15% 5%;
+  padding: 15% 4%;
+  text-align: right;
 }
 
 .title-heading {
@@ -37,6 +38,7 @@ body {
 
 .title-subheading, .title-text {
   color: #9D9D9D;
+  padding-right: 2%;
 }
 
 /* ---------- About Us section ---------- */
