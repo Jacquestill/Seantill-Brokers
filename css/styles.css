@@ -9,7 +9,7 @@ body {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .nav-item {
@@ -82,17 +82,19 @@ body {
 
 .services-heading {
   font-family: "Merriweather";
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight:400;
   letter-spacing: 10px;
 }
 
 .services-text {
   font-weight: 100;
+  font-size: 1.3rem;
 }
 
 .carousel-item {
   padding:5% 10%;
+  height: 700px;
 }
 
 .carousel-heading {
@@ -104,7 +106,7 @@ body {
 
 .carousel-text {
   color: #9D9D9D;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 3%;
 }
 
@@ -143,7 +145,7 @@ body {
 .contact-heading {
   font-family: "Merriweather";
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 3rem;
   letter-spacing: 15px;
 }
 
@@ -153,7 +155,7 @@ body {
 }
 
 .contact-form {
-  margin: 3% 0 1%;
+  margin: 5% 0 1%;
   padding: 2%;
   background-color: #ffffff;
   border-radius: 10px;
@@ -213,15 +215,57 @@ body {
 }
 
 .footer-text {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
+/* ---------- Footer section ---------- */
+
 @media (max-width: 991px) {
+
+  .navbar-toggler {
+    margin: 2%;
+    background-color: #9D9D9D;
+  }
+
+  .title-heading {
+    font-size: 6rem;
+  }
+
+  .title-subheading, .title-text {
+    font-size: 1.5rem;
+  }
+
   .about-img {
-    display: none;
+    /* display: none; */
+    position: relative;
+    left: 5%;
   }
 
   #about-us {
+    text-align: left;
+  }
+
+  .about-heading{
+    font-size: 4rem;
+    margin: 8% 0 5%;
     text-align: center;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .carousel-item {
+    height: 900px;
+  }
+
+  .email-icon {
+    margin: 5% 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .carousel-item {
+    height: 900px;
   }
 }
